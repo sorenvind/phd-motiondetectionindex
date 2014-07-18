@@ -1,0 +1,9 @@
+python diffcompress.py --width 320 --height 240 --regions 4 8 16 24 --frames 1 5 10 --layouts linear reg-binned --dir tests/diff-MS
+
+python diffcompress.py --regions 4 8 16 32 --frames 1 5 10 --layouts linear reg-binned --dir tests/diff-Stair.mpg_5
+
+python diffcompress.py --regions 4 8 16 32 --frames 1 5 10 --layouts linear reg-binned --dir tests/diff-ATM.mpg_5
+
+python diffcompress.py --width 704 --height 576 --regions 16 --frames 1 --layouts linear --dir tests/diff-HALLWAY_A.mpg_10
+
+python diffcompress.py --width 1920 --height 1080 --regions 8 16 32 --frames 1 --layouts linear --dir tests/diff-office-1m.mp4_10
