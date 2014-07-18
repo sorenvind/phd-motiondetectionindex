@@ -14,6 +14,10 @@ Create an index for a set of difference frames output from vid2diff.py. The inde
 ### compareHistVideoTime.py
 Compare the time spent answering a query on a video file, versus the time spent answering a query with an index built by diffcompress.py.
 
+## Data Sets
+
+The folder datasets/ contains a number of files used for testing. There are three different scenarios encoded at three different resolutions each. These are useful for testing different possible use cases for surveillance video cameras.
+
 ## Dependencies
 Stuff required to run diffcompress.py and vid2diff.py
 
